@@ -1,7 +1,7 @@
 {
-  "name": "nextjs",
+  "name": "background-time-lapse",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",

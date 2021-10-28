@@ -1,0 +1,56 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: small;
+}
+
+.crop {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    align-items: flex-end;
+    display: grid;
+}
+
+.crop img {
+    min-width: 100%;
+    min-height: 100%;
+    /*transform: translate(0, -50vh) !important;*/
+}
